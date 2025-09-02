@@ -11,7 +11,6 @@ USER root
 MAINTAINER Kendell Clement
 RUN apt-get update && apt-get install -y --no-install-recommends \
       gcc g++ bowtie2 samtools libsys-hostname-long-perl \
-      curl bzip2 \
   && apt-get clean \
   && apt-get autoremove -y \
   && rm -rf /var/lib/apt/lists/* /usr/share/man/* /usr/share/doc/*
