@@ -3,7 +3,7 @@
 ############################################################
 
 #FROM continuumio/miniconda3
-FROM mambaorg/micromamba:0.13.1
+FROM condaforge/miniforge3
 
 # File Author / Maintainer
 MAINTAINER Kendell Clement
